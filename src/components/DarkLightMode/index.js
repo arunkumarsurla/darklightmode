@@ -10,6 +10,10 @@ class DarkLightMode extends Component{
         this.setState(prevState =>({
             isLightMode: !prevState.isLightMode
         }))
+        // or
+        // this.setState({
+        //     isLightMode: !isLightMode
+        // })
     }
 
     render(){
